@@ -12,17 +12,19 @@
         <title>JSP Page</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
-        <div class="card" style="width: 18rem;">
+       
+        <div class="card" style="width: 100rem;">
   <img src="..." class="card-img-top" alt="...">
+  <div class="card">
   <div class="card-body">
-    <p class="card-text">JSP Coxca</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+      N&uacute;meros de menor a mayor
   </div>
 </div>
-        
+        </div>
+        <div class="uno">
         <h1>Hello World!</h1>
         <h1>N&uacute;mero 1</h1>
         <% 
@@ -108,5 +110,9 @@
             }
         %>
         <h1>El valor es: <%= d %> </h1>
+        <br> 
+        <p>Orden de números</p>
+        <%if %>
+        </div>
     </body>
 </html>
